@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #b5967a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin: 20px;
+}
+
+.slide {
+  width: 100%;
+  max-width: 765px;
+  background-color: #fffbef;
+  border-radius: 67px;
+  padding: 80px;
+  text-align: center;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 53px;
+  color: #333230;
+  margin-bottom: 10px;
+}
+
+p {
+  font-weight: 600;
+  color: #4d4b48;
+  font-size: 33px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #b57859;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 333px;
+  height: 106px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 33px;
+  color: #fffdfc;
+}
+
+.arrow {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+  color: #b57859;
+  cursor: pointer;
+  outline: none;
+}
+
+.slide button:hover {
+  transform: translateY(5px);
+  transition: 0.5s linear;
+}
+
+/* Responsiveness */
+
+@media (max-width: 900px) {
+  .slider {
+    gap: 32px;
+  }
+  .slide {
+    padding: 64px;
+  }
+  h1 {
+    font-size: 42px;
+  }
+  p {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+  button {
+    width: 266px;
+    height: 85px;
+    font-size: 26px;
+  }
+  .arrow {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 750px) {
+  .slider {
+    gap: 28px;
+  }
+  .slide {
+    padding: 56px;
+  }
+  h1 {
+    font-size: 37px;
+  }
+  p {
+    font-size: 23px;
+    margin-bottom: 21px;
+  }
+  button {
+    width: 233px;
+    height: 74px;
+    font-size: 23px;
+  }
+  .arrow {
+    font-size: 49px;
+  }
+}
+
+@media (max-width: 600px) {
+    .slider { gap: 20px; }
+    .slide { padding: 40px; }
+    h1 { font-size: 27px; }
+    p { font-size: 17px; margin-bottom: 15px; }
+    button { width: 167px; height: 53px; font-size: 17px; }
+    .arrow { font-size: 35px; }
+  }
+  
+  @media (max-width: 400px) {
+    .slider { gap: 16px; }
+    .slide { padding: 32px; }
+    h1 { font-size: 21px; }
+    p { font-size: 13px; margin-bottom: 12px; }
+    button { width: 133px; height: 42px; font-size: 13px; }
+    .arrow { font-size: 28px; }
+  }
