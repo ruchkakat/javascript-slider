@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Nunito", sans-serif;
+  user-select: none;
 }
 
 .slider {
@@ -82,6 +83,10 @@ button {
   transition: 0.5s linear;
 }
 
+.arrow:active {
+  transform: translateY(5px);
+}
+
 /* Responsiveness */
 
 @media (max-width: 900px) {
@@ -133,19 +138,49 @@ button {
 }
 
 @media (max-width: 600px) {
-    .slider { gap: 20px; }
-    .slide { padding: 40px; }
-    h1 { font-size: 27px; }
-    p { font-size: 17px; margin-bottom: 15px; }
-    button { width: 167px; height: 53px; font-size: 17px; }
-    .arrow { font-size: 35px; }
+  .slider {
+    gap: 20px;
   }
-  
-  @media (max-width: 400px) {
-    .slider { gap: 16px; }
-    .slide { padding: 32px; }
-    h1 { font-size: 21px; }
-    p { font-size: 13px; margin-bottom: 12px; }
-    button { width: 133px; height: 42px; font-size: 13px; }
-    .arrow { font-size: 28px; }
+  .slide {
+    padding: 40px;
   }
+  h1 {
+    font-size: 27px;
+  }
+  p {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  button {
+    width: 167px;
+    height: 53px;
+    font-size: 17px;
+  }
+  .arrow {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 400px) {
+  .slider {
+    gap: 16px;
+  }
+  .slide {
+    padding: 32px;
+  }
+  h1 {
+    font-size: 21px;
+  }
+  p {
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  button {
+    width: 133px;
+    height: 42px;
+    font-size: 13px;
+  }
+  .arrow {
+    font-size: 28px;
+  }
+}
