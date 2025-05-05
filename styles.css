@@ -38,10 +38,6 @@ body {
   display: block;
 }
 
-.slide:first-child {
-  display: block;
-}
-
 h1 {
   font-weight: 800;
   font-size: 53px;
