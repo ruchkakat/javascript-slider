@@ -1,21 +1,21 @@
-#slider-project
+## Slider Project
 
 A simple, responsive slider showcasing information about HTML, CSS, and JavaScript with smooth transitions and interactive buttons.
 
-🌟 Features
+# 🌟 Features
 
-Three slides with fun facts about web tech
+• Three slides with fun facts about web tech
 
-Big, chunky buttons that bounce when you hover
+• Big, chunky buttons that bounce when you hover
 
-Cute arrow navigation that wiggles on click
+• Cute arrow navigation that wiggles on click
 
-Fully responsive - looks great on phones, tablets, and desktops
+• Fully responsive - looks great on phones, tablets, and desktops
 
-Soft, cozy colors
+• Soft, cozy colors
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 HTML5, CSS3, JavaScript, Font Awesome, Google Fonts (Nunito)
 
-🚀 Want to see it live? Just open [the link](https://ruchkakat.github.io/javascript-slider/) and enjoy! 🎉
+### 🚀 Want to see it live? Just open [the link](https://ruchkakat.github.io/javascript-slider/) and enjoy! 🎉
