@@ -1,8 +1,8 @@
-## Slider Project
+# Slider Project
 
-A simple, responsive slider showcasing information about HTML, CSS, and JavaScript with smooth transitions and interactive buttons.
+A simple, responsive slider showcasing information about HTML, CSS, and JavaScript.
 
-# 🌟 Features
+## 🌟 Features
 
 • Three slides with fun facts about web tech
 
@@ -14,7 +14,7 @@ A simple, responsive slider showcasing information about HTML, CSS, and JavaScri
 
 • Soft, cozy colors
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 HTML5, CSS3, JavaScript, Font Awesome, Google Fonts (Nunito)
 
